@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    background:rgb(255, 94, 0);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 0px 90px 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+
+}
+
+.slide {
+    margin-top: 10%;
+    display: none;
+    
+
+}
+
+
+.slide img {
+    
+    margin-top: -5%;
+    border: 2px solid white;
+    border-radius: 1000px 0px 100px 200px;
+    width: 100%;
+    height: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 60%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease;
+}
+
+.overlay h2,
+.overlay p {
+    margin: 0;
+}
+
+.text-overlay {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: aliceblue;
+    padding: 12px;
+    font-size: 78px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-para {
+    line-height: -20px !important;
+}
+
+
+.slide:hover .overlay {
+    opacity: 0.7;
+}
+
+/* cards section */
+.detail_cards{
+    background-color: coral;
+    padding: 20px;
+}
+.detail-cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card1 {
+    background-color:coral;
+    text-align: center;
+    padding: 12px;
+    border: outset;
+    width: 200px;
+}
+
+/* section-two */
+.section-two {
+    background-color: rgba(255, 106, 80, 0.959);
+}
+.section-two-text-overlay{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: aliceblue;
+    padding: 12px;
+    font-size: 78px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* question answer section */
+.question-section {
+    background-image: url(https://images.pexels.com/photos/9618115/pexels-photo-9618115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+    filter:brightness(98%)
+}
+
+/* about us section */
+.about_section {
+    background-image: url(https://img.freepik.com/free-photo/top-view-diverse-people-hands-holding-together-circle-hands-stack_93675-134815.jpg?w=740&t=st=1708585705~exp=1708586305~hmac=3e67fe89f12c2ff2dc865e4d7803a92898876326ebf13915c3d1088f3dc2f1d5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.about-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about-des{
+    background-color:coral;
+}
+.about-image{
+    background:#0000005c;
+    border-radius: 300px 220px 500px;
+    padding: 12px;
+}
+
+/* service section */
+.service_section {
+    background-image: url(https://img.freepik.com/free-vector/paper-style-core-values-background_23-2149079276.jpg?w=740&t=st=1708583912~exp=1708584512~hmac=b9e1f7315fb9f5d67a201a7ba1173959402ccc1dbad55b6662b538b669ac85c8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.service-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.service-des{
+    background-color:rgba(218, 112, 214, 0.568);
+}
+.service-img{
+    background-color: rgba(255, 127, 80, 0.845);
+    box-shadow: 4px 0px 20px 4px blue;
+    border: 1px solid yellow;
+    border-radius: 160px 3px;
+}
+.service-text-overlay{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: aliceblue;
+    padding: 12px;
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* contact sections */
+.contact_section {
+    background-image: url(https://img.freepik.com/free-photo/handshake-businessmen_1098-742.jpg?w=740&t=st=1708512390~exp=1708512990~hmac=76ba4fdf2dd7be39cc58fc7bc938ed62765286494e9838dad165aef52edc3272);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-dis {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.1);
+  }
+
+  label,
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+
+  .card-dis {
+   background-color: rgba(255, 255, 255, 0.884);
+    box-shadow: 0 8px 32px 0 rgba(138, 146, 255, 0.349);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .card-img>img {
+    padding: 20px;
+    background-color: #ccc;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+
+/* footer section */
+.footer-section {
+    background-image: url(https://img.freepik.com/free-photo/dark-dyed-fabric-textured-background_53876-101681.jpg?w=740&t=st=1708331200~exp=1708331800~hmac=abb9e8bbe9e8fd494c1291449e61b2957c00880ba4b7a61ea0223131c7909df0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.hr-line {
+    color: white;
+    text-decoration: dotted;
+}

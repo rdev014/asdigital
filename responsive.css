@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .overlay {
+        width: 80%;
+        padding: px;
+    }
+    .text-overlay{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .section-two-text-overlay{
+        font-size: 32px;
+        margin-top: -70px;
+        padding: 20px;
+    }
+    .hero-section{
+        text-align: center;
+    }
+    .service-text-overlay{
+        font-size: 32px;
+        margin-top: -70px;
+        padding: 20px;
+    }
+}
+/* media query for contact us page */
+@media screen and (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+  }
