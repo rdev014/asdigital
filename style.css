@@ -103,17 +103,6 @@ background-color: #000;
     font-size: 78px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/* question answer section */
-.question-section {
-    background-image: url(https://images.pexels.com/photos/9618115/pexels-photo-9618115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    position: relative;
-    filter:brightness(98%)
-}
-
 /* about us section */
 .about_section {
     background-image: url(https://img.freepik.com/free-photo/top-view-diverse-people-hands-holding-together-circle-hands-stack_93675-134815.jpg?w=740&t=st=1708585705~exp=1708586305~hmac=3e67fe89f12c2ff2dc865e4d7803a92898876326ebf13915c3d1088f3dc2f1d5);
